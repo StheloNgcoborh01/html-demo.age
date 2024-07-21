@@ -1,0 +1,121 @@
+html{
+
+    background-color: rgba(3, 3, 3, 0.863);
+
+}
+
+#main p{
+
+    color : white;
+    font-size: 5rem;
+    position : left;
+    margin-top : 50px;
+    margin-bottom : 40px;
+}
+
+#logo-image{
+
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-left :0px;
+    
+}
+
+#design {
+
+    color : orange;
+}
+
+.left-saga{
+    border : 5px solid rgba(39, 38, 38, 0);
+    display : inline-block;
+    width : 45%;
+    clear : left;
+
+}
+
+#left-im{
+    float : left;
+    width : 300px;
+    height : 250px;
+    margin : 40px
+
+}
+.right-saga{
+    font-size : 1rem;
+
+    border : 5px solid rgba(39, 38, 38, 0);
+    display : inline-block;
+    width : 48%;
+
+}
+#right-im{
+    float : left;
+    width : 300px;
+    height : 250px;
+    margin : 40px
+
+
+}
+#footer{
+    margin-top : 30px;
+    color : orange;
+    float : right;
+}
+
+
+@media (max-width: 680px){ 
+    #logo-image{
+
+       width : 100px;
+    }
+
+.left-saga{
+
+    border : 10px solid rgba(39, 38, 38, 0);
+    display : inline-block;
+    width : 100%;
+
+}
+
+#left-im
+    {
+       width : 300px;
+        height : 250px;
+        margin : 40px;
+        display : inline;
+    }
+
+
+    .right-saga {
+        border : 10px solid rgba(39, 38, 38, 0);
+        display : inline-block;
+        width : 100%;
+
+    }
+
+    
+    #right-im{
+
+        width : 300px;
+        height : 250px;
+        margin : 40px;
+        display : inline;
+
+
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+}
+
